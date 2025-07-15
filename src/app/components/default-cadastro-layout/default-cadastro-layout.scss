@@ -63,45 +63,39 @@ main {
           text-decoration: underline;
         }
       }
-    }
 
-    .login-button {
-      background-color: #1b5e20;
-      color: white;
-      padding: 9px 10px;
-      width: 300px;
-      font-size: 16px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: 16px;
+      .login-button {
+        background-color: #1b5e20;
+        color: white;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
 
-      &:hover {
-        background-color: #155c18;
+        &:hover {
+          background-color: #155c18;
+        }
       }
-    }
 
-    .divider {
-      text-align: center;
-      color: #999;
-      font-size: 12px;
-      padding: 20px;
-    }
+      .divider {
+        text-align: center;
+        color: #999;
+        font-size: 12px;
+      }
 
-    .signup-button {
-      background-color: transparent;
-      color: #1b5e20;
-      padding: 9px 10px;
-      width: 300px;
-      font-size: 16px;
+      .signup-button {
+        background-color: transparent;
+        color: #1b5e20;
+        padding: 10px;
+        border: 1px solid #1b5e20;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
 
-      border: 1px solid #1b5e20;
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: 16px;
-
-      &:hover {
-        background-color: #e8f5e9;
+        &:hover {
+          background-color: #e8f5e9;
+        }
       }
     }
   }

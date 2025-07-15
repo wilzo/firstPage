@@ -1,21 +1,24 @@
+<head>
+  <!-- Ícones do Material Icons -->
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+</head>
 <main>
-  <section>
-    <img src="/assets/png/ifmtlogo2.svg" alt="Logoifmt" />
-    <h2>Faça seu login</h2>
-    <p>Email</p>
-    <input />
-    <p>Email</p>
-    <input />
-    <p>Esqueceu a senha?</p>
-
-    <button>Login</button>
-    <div>
-      <span>or</span>
-    </div>
-    <button>Cadastre-se</button>
+  <!-- Lado esquerdo: Formulário -->
+  <section class="form-section">
+    <img src="/assets/png/ifmtlogo2.svg" alt="Logo IFMT" class="logo" />
+    <h2>{{ title }}</h2>
+    <ng-content></ng-content>
+    <button class="login-button">{{ primaryBtnText }}</button>
+    <div class="divider"><span>ou</span></div>
+    <button class="signup-button">{{ secondaryBtnText }}</button>
   </section>
-  <section>
-    <h2>Teste tela, de Login</h2>
-    <img src="/assets/png/ifmt.png" alt="ifmt" />
+
+  <!-- Lado direito: Imagem + Título -->
+  <section class="main-section">
+    <h1>Login IFMT</h1>
+    <img src="/assets/png/ifmt.png" alt="IFMT" class="main-logo" />
   </section>
 </main>

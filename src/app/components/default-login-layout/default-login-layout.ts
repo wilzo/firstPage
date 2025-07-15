@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
   templateUrl: './default-login-layout.html',
   styleUrl: './default-login-layout.scss',
 })
-export class DefaultLoginLayout {}
+export class DefaultLoginLayout {
+  title = 'Bem-vindo!';
+  primaryBtnText = 'Entrar';
+  secondaryBtnText = 'Criar conta';
+}
