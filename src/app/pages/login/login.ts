@@ -6,10 +6,11 @@ import {
   ReactiveFormsModule,
   Validators,
 } from '@angular/forms';
+import { PrimaryInput } from '../../components/primary-input/primary-input';
 
 @Component({
   selector: 'app-login',
-  imports: [DefaultLoginLayout, ReactiveFormsModule],
+  imports: [DefaultLoginLayout, ReactiveFormsModule, PrimaryInput],
   templateUrl: './login.html',
   styleUrl: './login.scss',
 })
