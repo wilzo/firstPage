@@ -2,6 +2,8 @@
   title="Bem-vindo!"
   primaryBtnText="Entrar"
   secondaryBtnText="Criar conta"
+  (submit)="submit()"
+  (navigate)="navigate()"
 >
   <form [formGroup]="loginForm">
     <app-primary-input

@@ -11,9 +11,13 @@
     <img src="/assets/png/ifmtlogo2.svg" alt="Logo IFMT" class="logo" />
     <h2>{{ title }}</h2>
     <ng-content></ng-content>
-    <button class="login-button">{{ primaryBtnText }}</button>
+    <button class="login-button" (click)="submit()">
+      {{ primaryBtnText }}
+    </button>
     <div class="divider"><span>ou</span></div>
-    <button class="signup-button">{{ secondaryBtnText }}</button>
+    <button class="signup-button" (click)="navigate()">
+      {{ secondaryBtnText }}
+    </button>
   </section>
 
   <!-- Lado direito: Imagem + Título -->
